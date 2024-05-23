@@ -1,12 +1,19 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 <style>
+body  {
+    background-image: url("back.jpeg");
+    background-color: #cccccc;
+}
+p
+{
+	color: red;
+	font-size: 30px;
+	position: absolute;
+}
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -17,9 +24,9 @@ img {vertical-align: middle;}
   max-width: 1250px;
   position: relative;
   margin: auto;
-}
+}+66 
 
-/* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -108,84 +115,71 @@ img {vertical-align: middle;}
     background-color: #4CAF50;
     color: white;
 }
-#first{
-	background-color:aliceblue;
-	width:30%;
-	height:80%;
-	float:left;
-	}
-#second{
-	background-color:red;
-	width:30%;
-	height:80%;
-	float:left;
-	margin:5px;
-	padding:5px;
-	}
 </style>
 </head>
 <body>
-
+<div class="logoleft">
+<h3>TrAVeLiInG BlOg</h3>
+</div>
 <div class="topnav">
   <a class="active" href="#">Home</a>
-  <a href="home.html">Blog</a>
-  <a href="about.html">Travel</a>
-  <a href="event.html">Event</a>
-  <a href="info.html">Contact Us</a>
+  <a href="second.html">Blog</a>
+  <a href="third.html">Places</a>
+  <a href="fourth.html">Gallery</a>
+  <a href="fifth.html">Contact</a>
 </div>
 <br>
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 8</div>
-  <img src="prince.jpeg" style="width:100%; height:430px;">
-  <div class="text">Risikesh</div>
+  <img src="delhi.jpg" style="width:100%; height:530px;">
+  <div class="text">Delhi</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 8</div>
-  <img src="shivani.jpeg" style="width:100%; height:430px;">
+  <img src="pondii.jpg" style="width:100%; height:530px;">
   <div class="text">pondicherry</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 8</div>
-  <img src="sonali.jpeg" style="width:100%; height:430px;">
-  <div class="text">rameshwram</div>
+  <img src="gokarna.jpg" style="width:100%; height:530px;">
+  <div class="text">Gokarna</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 8</div>
-  <img src="sweety.jpeg" style="width:100%; height:430px;">
-  <div class="text">Kanyakumari</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">5 / 8</div>
-  <img src="tariq.jpeg" style="width:100%; height:430px;">
-  <div class="text">Kodikanal</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">6 / 8</div>
-  <img src="ved.jpeg" style="width:100%; height:430px;">
-  <div class="text">Shimla</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">7 / 8</div>
-  <img src="veernal.jpeg" style="width:100%; height:430px;">
+  <img src="manali.jpg" style="width:100%; height:530px;">
   <div class="text">Manali</div>
 </div>
 
 <div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="blr.jpg" style="width:100%; height:530px;">
+  <div class="text">Bangalore</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="hp1.jpg" style="width:100%; height:530px;">
+  <div class="text">Himachal</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="shimla.jpg" style="width:100%; height:530px;">
+  <div class="text">Shimla</div>
+</div>
+
+<div class="mySlides fade">
   <div class="numbertext">8 / 8</div>
-  <img src="vishal.jpeg" style="width:100%; height:430px;">
-  <div class="text">puskar7</div>
+  <img src="amer.jpg" style="width:100%; height:530px;">
+  <div class="text">Jaipur</div>
 </div>
 </div>
 <br>
-
 
 <div style="text-align:center">
   <span class="dot"></span> 
@@ -198,14 +192,60 @@ img {vertical-align: middle;}
   <span class="dot"></span> 
 </div>
 
-<div id="first">
-First
-</div>
-<div id="second">
-<img src="pondi.jpeg " height="100%" width="100%">
-</div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
-
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="travel">
+    <div class="w3-quarter">
+      <img src="n1.jpg" alt="fort" style="width:100%">
+      <h3>Manali</h3>
+	  <a href="third.html">how to spent day in manali</a>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="shimla.jpg" alt="beach" style="width:100%">
+      <h3>Shimla</h3>
+	   <a href="shimla.html">how to spent day in Shimla</a>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="gokarna.jpg" alt="budda lord" style="width:100%">
+      <h3>Kudle Beach</h3>
+	  <a href="kudle.html">how to spent day in kudle beach</a>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="madurai.jpg" alt="manli" style="width:100%">
+      <h3>Meenaskshi Temple</h3>
+      <p></p>
+    </div>
+  </div>
+  
+   <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="kodi.jpg" alt="mountain" style="width:100%">
+      <h3>kodikanal pillar rock</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="delhi.jpg" alt="temple" style="width:100%">
+      <h3>Akashardham Temple</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="blr.jpg" alt="bng" style="width:100%">
+      <h3>Bangalore palace</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="gokarn.jpg" alt="gokara" style="width:100%">
+      <h3>OM Beach</h3>
+      <p></p>
+    </div>
+  </div>
 <script>
 var slideIndex = 0;
 showSlides();
@@ -227,6 +267,6 @@ function showSlides() {
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
-
-<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_crazypeeps&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+</body>
 </html> 
+
